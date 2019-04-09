@@ -271,7 +271,7 @@
 
         <source-file src="src/android/Diagnostic.java" target-dir="src/cordova/plugins" />
 
-        <preference name="ANDROID_SUPPORT_VERSION" default="28.+" />
+        <preference name="ANDROID_SUPPORT_VERSION" default="27.+" />
         <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_VERSION" />
         <framework src="com.android.support:appcompat-v7:$ANDROID_SUPPORT_VERSION" />
 
