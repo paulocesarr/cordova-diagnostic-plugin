@@ -115,8 +115,9 @@
         <framework src="Photos.framework" />
         <framework src="AVFoundation.framework" />
 
+        <preference name="REQUEST_PERMISSION_CAMERA_TEXT" default="This app requires camera access to function properly." />
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-            <string>This app requires camera access to function properly.</string>
+            <string>$REQUEST_PERMISSION_CAMERA_TEXT</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
